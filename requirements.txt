@@ -1,0 +1,5 @@
+flask
+pymupdf
+fpdf
+python-dotenv
+google-genai

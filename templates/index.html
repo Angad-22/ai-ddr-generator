@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI DDR Generator</title>
+</head>
+<body>
+    <h2>Upload Reports</h2>
+    <form action="/generate" method="post" enctype="multipart/form-data">
+        <label>Inspection Report:</label>
+        <input type="file" name="inspection" required><br><br>
+
+        <label>Thermal Report:</label>
+        <input type="file" name="thermal" required><br><br>
+
+        <button type="submit">Generate DDR Report</button>
+    </form>
+</body>
+</html>
